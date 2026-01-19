@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logoImg from "../../public/logo.svg";
+import logoImg from "@/public/logo.svg";
 import Link from "next/link";
 
 export default function LogoComponent() {

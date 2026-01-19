@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+
 @theme {
   --primary-color: #13ec5b;
   --school-green: #166534;
