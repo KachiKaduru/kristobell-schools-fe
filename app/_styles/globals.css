@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --primary-color: #13ec5b;
+  --school-green: #166534;
+  --school-gold: #ca8a04;
+  --bg-light: #f6f8f6;
+  --bg-dark: #102216;
+}
