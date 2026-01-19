@@ -7,7 +7,7 @@ export default function LogoComponent() {
     <Link href="/">
       <div className="flex gap-3 items-center">
         <Image src={logoImg} alt="Logo" />
-        <span>Kristobell Schools</span>
+        <h2 className="font-bold text-xl">Kristobell Schools</h2>
       </div>
     </Link>
   );

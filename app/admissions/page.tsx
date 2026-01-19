@@ -1,11 +1,12 @@
+import AdmissionsEnrollment from "../_components/landing-page/admissions/AdmissionsEnrollment";
+import AdmissionsHero from "../_components/landing-page/admissions/AdmissionsHero";
 import PagesLayout from "../_components/landing-page/PagesLayout";
 
 export default function AdmissionsPage() {
   return (
     <PagesLayout>
-      <section>
-        <h1>admissions page</h1>
-      </section>
+      <AdmissionsHero />
+      <AdmissionsEnrollment />
     </PagesLayout>
   );
 }

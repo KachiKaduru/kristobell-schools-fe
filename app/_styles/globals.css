@@ -11,4 +11,30 @@
   --school-gold: #ca8a04;
   --bg-light: #f6f8f6;
   --bg-dark: #102216;
+
+  /* GREEN */
+  --color-green-50: #bbf7d0;
+  --color-green-100: #13ec5b;
+  --color-green-200: #15803d;
+  --color-green-300: #166534;
+
+  /* ORANGE */
+  --color-orange: #ca8a04;
+
+  /* RED */
+  --color-red-50: #ef4444;
+  --color-red-100: #dc2626;
+
+  /* GREY */
+  --color-grey-50: #f9fafb;
+  --color-grey-100: #f6f6f8;
+  --color-grey-200: #f3f4f6;
+  --color-grey-300: #f0f2f4;
+  --color-grey-400: #6b7280;
+  --color-grey-500: #e5e7eb;
+  --color-grey-600: #6b7280;
+
+  /* AZURE */
+  --color-azure-50: #f0f9ff;
+  --color-azure-100: #e0f2fe;
 }

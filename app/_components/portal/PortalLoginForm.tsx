@@ -22,6 +22,16 @@ export default function PortalLoginForm() {
     setCurrentRole(role);
   }
 
+  function handleLogin(formData: FormData) {
+    const loginData = {
+      role: currentRole,
+      userId: formData.get("userId"),
+      password: formData.get("password"),
+    };
+
+    console.log(loginData);
+  }
+
   return (
     <div>
       <header className="flex flex-col gap-3 items-center">
@@ -44,18 +54,28 @@ export default function PortalLoginForm() {
         ))}
       </div>
 
-      <form action="" className="my-10 space-y-5">
+      <form action={handleLogin} className="my-10 space-y-5">
         {rolesFormInputs[currentRole].map((input) => (
           <fieldset key={input.legend}>
             <legend>{input.legend}</legend>
-            <TextInput type={input.type} placeholder={input.placeholder} />
+            <TextInput
+              name="userId"
+              type={input.type}
+              placeholder={input.placeholder}
+              required={true}
+            />
           </fieldset>
         ))}
 
         <fieldset>
           <legend>Password</legend>
-          <TextInput type="password" placeholder="Enter your password" />
-          <p>
+          <TextInput
+            name="password"
+            type="password"
+            placeholder="Enter your password"
+            required={true}
+          />
+          <p className="text-right text-blue-800 font-medium">
             <Link href="/portal/forgot-password">Forgot Password?</Link>
           </p>
         </fieldset>

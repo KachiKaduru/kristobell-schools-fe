@@ -5,7 +5,7 @@ import {headerLinks} from "@/app/_constants";
 
 export default function Header() {
   return (
-    <header className="">
+    <header className="py-6 bg-white">
       <Container className="flex justify-between">
         <LogoComponent />
 
