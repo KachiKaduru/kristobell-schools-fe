@@ -6,12 +6,12 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="py-10">
+    <footer className="py-10 bg-vulcan-700 text-white">
       <Container className="grid">
         <section className="grid grid-cols-4 gap-10">
           <div>
             <LogoComponent />
-            <p>
+            <p className="text-grey-500">
               Raising a generation of intellectually sound and morally upright leaders for the
               global stage.
             </p>
@@ -21,9 +21,9 @@ export default function Footer() {
           <FooterSection title="Academics" array={academicsPrograms} />
         </section>
 
-        <div className="h-0.5 my-10 bg-gray-400" />
+        <div className="h-0.5 my-10 bg-grey-500" />
 
-        <section className="flex justify-between">
+        <section className="flex justify-between text-grey-500">
           <p className="text-center">&copy; Kristobell Schools. All rights reserved.</p>
 
           <div className="flex">

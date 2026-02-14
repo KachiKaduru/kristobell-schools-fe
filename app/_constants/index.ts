@@ -53,3 +53,22 @@ export const enrollProcessData = [
       "Upon successful assessment, an admission offer letter is issued. Complete the registration by submitting required documents and payment.",
   },
 ];
+
+export const faqs = [
+  {
+    id: 1,
+    question: "When does the admission application close?",
+    answer: "The admission application closes on the 31st of March 2026.",
+  },
+  {
+    id: 2,
+    question: "Is there a discount for siblings?",
+    answer:
+      "Yes, there is a discount for siblings. The discount is 10% for the second child and 20% for the third child.",
+  },
+  {
+    id: 3,
+    question: "What age is required for Pre-School?",
+    answer: "The age required for Pre-School is 3 years old.",
+  },
+];

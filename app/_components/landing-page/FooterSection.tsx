@@ -10,7 +10,7 @@ export default function FooterSection({title, array}: FooterSectionProps) {
     <div>
       <h4>{title}</h4>
 
-      <ul>
+      <ul className="text-grey-500">
         {array.map((item) => (
           <li key={item.title}>
             <Link href={item.href}>{item.title}</Link>

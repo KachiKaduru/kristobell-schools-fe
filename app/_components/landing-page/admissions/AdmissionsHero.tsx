@@ -2,7 +2,7 @@ import Container from "../../Container";
 
 export default function AdmissionsHero() {
   return (
-    <main className="py-28 bg-green-300/90 text-white">
+    <main className="py-28 bg-primary-700/90 text-white">
       <Container className="space-y-7">
         <h1 className="text-6xl font-extrabold text-center">Admissions</h1>
 

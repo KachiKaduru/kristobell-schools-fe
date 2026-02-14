@@ -32,14 +32,14 @@ export default function AdmissionsEnrollment() {
 function EnrollmentCard({step = 1, title = "", description = ""}) {
   return (
     <div className="flex gap-5">
-      <span className="grid place-content-center rounded-[50%] w-10 h-10 border-green-300 border-2">
-        {step}
-      </span>
+      <aside className="grid place-content-center  rounded-[50%] w-12 h-12 border-green-700 border-2 bg-white">
+        <p className="text-green-700 font-bold text-xl">{step}</p>
+      </aside>
 
-      <div className="bg-white rounded-lg border border-grey-300 p-3">
+      <div className="bg-white rounded-lg border border-grey-600 p-3 w-full space-y-2">
         <h2 className="font-bold text-xl">{title}</h2>
 
-        <p>{description}</p>
+        <p className="text-grey-text">{description}</p>
       </div>
     </div>
   );
