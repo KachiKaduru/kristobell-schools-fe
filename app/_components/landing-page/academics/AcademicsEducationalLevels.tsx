@@ -8,7 +8,7 @@ function EducationLevelCard({
   activities,
   classes,
   color,
-  // direction = "normal",
+  direction,
 }: EducationalLevelType) {
   const colorMap: Record<string, string> = {
     gold: "text-gold bg-gold/20",
@@ -17,13 +17,15 @@ function EducationLevelCard({
   };
 
   const selectedColor = colorMap[color];
-  // const isReverse = direction === "reverse";
+  const isReverse = direction === "reverse";
+
+  const gridColsClass = isReverse ? "grid-cols-[1fr_.7fr]" : "grid-cols-[.7fr_1fr]";
 
   return (
     <div
-      className={`bg-white shadow-lg border-grey-700 rounded-xl grid grid-cols-[.6fr_1fr] gap-5 p-8 `}
+      className={`bg-white shadow-lg border-grey-700 rounded-xl grid ${gridColsClass} gap-5 p-8 `}
     >
-      <div>
+      <div className={`${isReverse ? "col-start-2 col-end-3 row-span-full" : ""}`}>
         <h2 className={`text-xl font-bold w-fit ${selectedColor}`}>{classes}</h2>
       </div>
 

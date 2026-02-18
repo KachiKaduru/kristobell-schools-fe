@@ -1,9 +1,13 @@
+import Image from "next/image";
 import Container from "../../Container";
+import logoImg from "@/public/logo.svg";
 
 export default function AcademicsEnroll() {
   return (
     <section className="bg-white py-16">
       <Container className="text-center bg-denim/5 border border-denim/20 rounded-lg p-12 space-y-6">
+        <Image src={logoImg} alt="Logo" className="w-fit mx-auto" />
+
         <h2 className="text-3xl font-bold capitalize">Ready to enroll?</h2>
         <p className="text-grey-text w-[47%] mx-auto">
           Applications are now open for the 2024/2025 academic session. Secure your child&apos;s
