@@ -72,3 +72,62 @@ export const faqs = [
     answer: "The age required for Pre-School is 3 years old.",
   },
 ];
+
+export const mottoInfo = [
+  {
+    title: "Our Vision",
+    icon: "mdi-light:eye",
+    description:
+      "To be the premier educational institution in Nigeria, recognized globally for academic excellence and character development. ",
+    color: "gold",
+  },
+  {
+    title: "Our mission",
+    icon: "material-symbols:flag-outline",
+    description:
+      "To provide quality education that fosters intellectual, moral, and spiritual growth of every student in a nurturing environment.",
+    color: "primary-700",
+  },
+  {
+    title: "Our Core Values",
+    icon: "fa-regular:gem",
+    description:
+      "Excellence, Integrity, Faith, Discipline, and Service. We embed these values in every aspect of school life.",
+    color: "denim",
+  },
+];
+
+export const aboutJourneyData = [
+  {
+    year: "1998",
+    title: "Foundation",
+    description:
+      "Kristobell Schools was established with just 15 students and 4 teachers in a small rented apartment, driven by a vision to provide quality education.",
+    color: "primary-700",
+    direction: "left",
+  },
+  {
+    year: "2005",
+    title: "Secondary Section",
+    description:
+      "Following the success of the primary school, the secondary arm was launched to provide continuity in academic and moral training.",
+    color: "gold",
+    direction: "right",
+  },
+  {
+    year: "2015",
+    title: "Campus Expansion",
+    description:
+      "Moved to our permanent site featuring state-of-the-art laboratories, a modern library, and sporting facilities.",
+    color: "denim",
+    direction: "left",
+  },
+  {
+    year: "2023",
+    title: "Recognition and Achievement",
+    description:
+      "Awarded the 'Outstanding School of the Year' by the Education Board and achieved 100% distinction in WASSCE.",
+    color: "primary-700",
+    direction: "right",
+  },
+];
